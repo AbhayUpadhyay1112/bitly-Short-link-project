@@ -14,7 +14,7 @@ export default function App(){
       </div>
 
       <footer style={{marginTop:16, textAlign:'center'}} className="small">
-        Built with Node + React — Backend must run at <code>{import.meta.env.VITE_API_BASE || 'http://localhost:4000'}</code>
+        Built with Node + React — Backend must run at <code>{import.meta.env.VITE_API_BASE || 'https://bitly-short-link-project.onrender.com/'}</code>
       </footer>
     </div>
   )

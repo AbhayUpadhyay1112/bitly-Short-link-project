@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import LinkForm from '../components/LinkForm'
+import LinkForm from '../components/linkform'
 import LinkTable from '../components/LinkTable'
 import { listLinks, createLink, deleteLink } from '../api'
 

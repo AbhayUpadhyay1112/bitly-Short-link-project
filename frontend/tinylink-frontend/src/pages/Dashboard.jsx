@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import LinkForm from '../components/linkform'
-import LinkTable from '../components/LinkTable'
+import LinkTable from '../components/linktable'
 import { listLinks, createLink, deleteLink } from '../api'
 
 export default function Dashboard(){

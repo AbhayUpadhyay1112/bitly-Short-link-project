@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_BASE || 'https://bitly-short-link-project.onrender.com/';
+const BASE ='https://bitly-short-link-project.onrender.com';
 
 async function request(path, opts = {}) {
   const url = `${BASE}${path}`;

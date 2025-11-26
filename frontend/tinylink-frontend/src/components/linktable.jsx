@@ -11,7 +11,7 @@ export default function LinkTable({ links, onDelete }) {
       <tbody>
         {links.map(l => (
           <tr key={l.code}>
-            <td><a href={`${import.meta.env.VITE_API_BASE || 'http://localhost:4000'}/${l.code}`} target="_blank" rel="noreferrer">{l.code}</a></td>
+            <td><a href={`${import.meta.env.VITE_API_BASE || 'https://bitly-short-link-project.onrender.com/'}/${l.code}`} target="_blank" rel="noreferrer">{l.code}</a></td>
             <td style={{maxWidth:400, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}} title={l.url}>{l.url}</td>
             <td>{l.clicks}</td>
             <td>{l.last_clicked ? new Date(l.last_clicked).toLocaleString() : '-'}</td>
